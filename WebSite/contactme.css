@@ -4,19 +4,13 @@
    font-family: 'Josefin Slab', serif;
 }
 
-
-
 body{
-  background-color: #e6e2d3 ;
-  text-align: center;
-
+  background-image: linear-gradient(to bottom right, #e6e2d3, #ffef96);
 }
-
 
 ul{ float:right;
     list-style-type:none;
     margin-top: 20px;
-    position: relative;
 }
 
 ul li{
@@ -36,26 +30,16 @@ ul li a:hover{
 }
 
 .ContactForm{
-
-  position:absolute;
-  top:35%;
-  left:50%;
-  transform: translate(-50%, -50%);
+  background-color: white;
+  padding-top: 150px;
+  text-align: center;
   width:50%;
-  margin-top: 100px;
-  text-align: center;
-  border: 1px solid;
-
-  display:inline-block;
-  padding:100px;
-
-  background: white;
-
-}
-.ContactForm h1{
-  text-align: center;
+  padding:50px;
 }
 
+.ContactForm label{
+  display: block;
+}
 .contact-form{
   background-color: white;
   width:100%;
