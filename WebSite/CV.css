@@ -5,8 +5,7 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom right, #e6e2d3, #ffef96);
-}
+background-image: linear-gradient(-50deg, #b0aac0, #c2d4dd);}
 
 
 ul{ float:right;
