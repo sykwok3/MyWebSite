@@ -64,14 +64,3 @@ form .submit-form:hover{ /*Allows the send message button to turn grey when hove
   background-color: lightgrey;
   cursor: pointer;
 }
-
-.footer{
-  position: fixed;
-  left:0;
-  bottom:0;
-  width:100%;
-  background-color:black;
-  color: white;
-  text-align: center;
-  height:50px;
-}
