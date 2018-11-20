@@ -20,15 +20,18 @@
  </header>
 
  <div class="ContactForm"> <!--Form for contacting website creator-->
-   <form method="post">
+   <form action="mailto:s.y.kwok@dundee.ac.uk" method="post" enctype="text/plain" >
     <h1>CONTACT ME</h1>
+    <br>
+    <p>Phone: +44 1234 567890</p>
+    <br>
     <label for="name">Name</label>
     <input type="text" class="contact-form" name="name" placeholder="Your Name" required><br>
     <label for="email">Email</label>
     <input type="text" class="contact-form" name="email" placeholder="Your Email" required><br>
     <label for="message">Message</label>
     <textarea class="contact-form" name="message" placeholder="Your Message" row ="5" required></textarea><br>
-    <input type="Submit" class="submit-form" value="Send Message">
+    <input type="submit" class="submit-form" value="Send Message">
    </form>
  </div>
 
