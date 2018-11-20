@@ -8,8 +8,6 @@ body{
   background-image: linear-gradient(-50deg, #b0aac0, #c2d4dd);
 }
 
-
-
 ul{ float:right;
     list-style-type:none;
     margin-top: 20px;
@@ -37,7 +35,7 @@ ul li a:hover{
   overflow: hidden;
   display:  inline-block;
 }
-.container1 img{
+.container1 img{ /*Allows image to stay on left side of page */
   max-width:100%;
   height:auto;
   float: left;
@@ -55,8 +53,6 @@ ul li a:hover{
   float: left;
   margin-right: 15px;
 }
-
-
 
 .footer{
   position:fixed;

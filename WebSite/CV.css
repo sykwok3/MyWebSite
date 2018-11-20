@@ -30,12 +30,10 @@ ul li a:hover{
 }
 
 .text{
-  padding: 100px;
+  padding: 100px; /*code for CV details */
   font-size: 20px;
   float:left
 }
-
-
 
 .footer{
   position: fixed;
